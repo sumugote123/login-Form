@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+         background-color: aquamarine;
+        }
+        h1{
+            color: chocolate;
+           font-size: 50px;
+        }
+        label{
+            color: blueviolet;
+            font-size: 30px;
+
+        }
+        .btn{
+            background-color: brown;
+            height: 40px;
+            width: 80px;
+            font-size: 20px;
+        }
+     </style>
+</head>
+<body>
+    <h1>Login Form</h1>
+    <form action="/login" method="post">
+    <label>Username:</label>
+    <input type="text" id="username" name="username" required><br><br>
+    <label>email:</label>
+    <input type="email" id="email" name="username" required><br><br>
+    <label>Password:</label>
+    <input type="password" id="password" required><br><br>
+    <button type="submit" class="btn">Login</button><br><br>
+      
+    </form>
+</body>
+</html>
